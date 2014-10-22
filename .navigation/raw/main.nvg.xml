@@ -13,8 +13,32 @@
           y = "0"/>
       </key>
       <value      
+        x = "480"      
+        y = "160"      
+        class = "com.android.navigation.Point"/>
+    </entry>
+    <entry>
+      <key      
+        class = "com.android.navigation.ActivityState"      
+        className = "com.mycompany.myapp.board">
+        <location        
+          idref = "point0"/>
+      </key>
+      <value      
         x = "500"      
-        y = "100"      
+        y = "1480"      
+        class = "com.android.navigation.Point"/>
+    </entry>
+    <entry>
+      <key      
+        class = "com.android.navigation.MenuState"      
+        xmlResourceName = "board">
+        <location        
+          idref = "point0"/>
+      </key>
+      <value      
+        x = "1768"      
+        y = "1480"      
         class = "com.android.navigation.Point"/>
     </entry>
     <entry>
