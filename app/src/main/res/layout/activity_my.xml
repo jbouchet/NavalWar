@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:gravity="center_vertical"
         android:layout_above="@+id/btexit"
-        android:layout_centerHorizontal="true"/>
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:id="@+id/btexit" android:text="Quitter"

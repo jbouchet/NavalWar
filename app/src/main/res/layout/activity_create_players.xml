@@ -1,0 +1,42 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MyActivity">
+
+
+
+    <EditText
+        android:id="@+id/create_player1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_above="@+id/create_player2"
+        android:layout_alignStart="@+id/create_player2"
+        android:layout_alignEnd="@+id/create_player2"
+        android:text="Joueur 1"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/create_player2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:text="Joueur 2"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btn_create" android:text="@string/action_create"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_below="@+id/create_player2"
+        android:layout_alignStart="@+id/create_player2"
+        android:layout_alignEnd="@+id/create_player2"
+        android:textAlignment="center" />
+
+</RelativeLayout>

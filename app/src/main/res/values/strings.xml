@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="app_name">NavalWar</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
@@ -7,7 +8,7 @@
     <string name="go">Go</string>
     <string name="ready">Ready</string>
     <string name="title_activity_board1">Joueur 1</string>
-    <string name="title_activity_action_bar">@string/app_name</string>
+    <string name="title_activity_action_bar">Action Bar</string>
     <string name="menu_settings">Paramètres</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="menu_search">Recherche</string>
@@ -15,4 +16,8 @@
     <string name="menu_help">Aide</string>
     <string name="menu_about">A propos</string>
     <string name="menu_next">Continuer</string>
+    <string name="title_activity_create_players">CreatePlayersActivity</string>
+    <string name="action_create">Créer</string>
+    <string name="title_activity_ready">ReadyActivity</string>
+
 </resources>

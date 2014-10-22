@@ -19,7 +19,7 @@ public class MyActivity extends Activity {
             @Override
             public void onClick(View v) {
                 Intent myIntent;
-                myIntent = new Intent(MyActivity.this, Board1.class);
+                myIntent = new Intent(MyActivity.this, CreatePlayersActivity.class);
                 MyActivity.this.startActivity(myIntent);
             }
         });

@@ -13,16 +13,21 @@
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".Board1"
+            android:name=".Battlefield"
             android:label="@string/title_activity_board1" >
         </activity>
         <activity
-            android:name=".ActionBarActivity"
-            android:label="@string/title_activity_action_bar" >
+            android:name=".CreatePlayersActivity"
+            android:label="@string/title_activity_create_players" >
+        </activity>
+        <activity
+            android:name=".ReadyActivity"
+            android:label="@string/title_activity_ready" >
         </activity>
     </application>
 
