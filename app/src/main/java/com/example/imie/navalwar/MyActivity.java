@@ -3,9 +3,6 @@ package com.example.imie.navalwar;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
@@ -22,7 +19,7 @@ public class MyActivity extends Activity {
             @Override
             public void onClick(View v) {
                 Intent myIntent;
-                myIntent = new Intent(MyActivity.this, Board.class);
+                myIntent = new Intent(MyActivity.this, Board1.class);
                 MyActivity.this.startActivity(myIntent);
             }
         });
