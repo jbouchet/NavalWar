@@ -7,17 +7,21 @@
     tools:context=".MyActivity">
 
     <Button
-        android:id="@+id/btbegin" android:text="Commencer"
-        android:layout_width="fill_parent"
+        android:id="@+id/btbegin"
+        android:text="Commencer"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:gravity="center_vertical"
-    />
+        android:layout_above="@+id/btexit"
+        android:layout_centerHorizontal="true"/>
 
     <Button
         android:id="@+id/btexit" android:text="Quitter"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:gravity="center_vertical"
-    />
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/btbegin"
+        android:layout_alignEnd="@+id/btbegin" />
 
 </RelativeLayout>

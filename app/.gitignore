@@ -1,6 +1,6 @@
-<<<<<<< HEAD
+
 /build
-=======
+
 # Built application files
 *.apk
 *.ap_
@@ -27,4 +27,4 @@ proguard/
 
 # Log Files
 *.log
->>>>>>> eeec524cce6b57f3c4b6483612780a54558baa81
+
